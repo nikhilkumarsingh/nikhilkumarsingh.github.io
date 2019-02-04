@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../libs/font-awesome/css/fontawesome-all.min.css">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/styles.css" rel="stylesheet">
+    <script src="https://apis.google.com/js/platform.js"></script>
 </head>
 
 <style>
@@ -29,7 +30,7 @@
 
     .playlist {
         width: 30%;
-        height: 330px;
+        height: 250px;
         display: inline-block;
         margin-top: 10px;
         margin-bottom: 80px;
@@ -38,6 +39,12 @@
     .playlist iframe {
         width: 90%;
         height: 100%
+    }
+
+    .subscribe {
+        margin: auto;
+        text-align: center;
+        width: 100%
     }
 
     @media only screen and (max-width: 750px) {
@@ -71,6 +78,10 @@
             <h3><a target="_blank" href="https://www.youtube.com/playlist?list=PLyb_C2HpOQSCw94SAv73NXYkjuJz5A6_Z">Introduction to Pandas</a></h3>
             <iframe src="https://www.youtube.com/embed/videoseries?list=PLyb_C2HpOQSCw94SAv73NXYkjuJz5A6_Z" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </div>
+
+    <div class="subscribe">
+        <div class="g-ytsubscribe" data-channelid="UCkUq-s6z57uJFUFBvZIVTyg" data-layout="full" data-count="default"></div>
     </div>
     </body>
 </html>
