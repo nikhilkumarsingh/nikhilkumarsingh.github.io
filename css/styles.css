@@ -67,7 +67,7 @@ body {
     font-weight: 300;
     color: #7e8890;
     margin: 0 0 15px 0; }
-  .no-js #experience-timeline > div p {
+  .no-js #experience-timeline > div p,li{
     color: #74808a;
     font-size: 0.9em;
     margin: 0; }
@@ -539,18 +539,18 @@ footer {
     ----- 9. Skills Styles -----
     -------------------------------
 */
-#skills {
+.skills {
   padding: 20px 10px;
   text-align: center; }
-  #skills h2 {
+  .skills h2 {
     color: #374054;
     margin-bottom: 20px; }
-  #skills ul {
+  .skills ul {
     display: block;
     margin: 0 auto;
     padding: 0;
     max-width: 800px; }
-  #skills li {
+  .skills li {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
