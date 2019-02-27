@@ -26,7 +26,8 @@ og_description: A comprehensive guide for learning regular expressions using Pyt
     </div>
     <div class="row">
         <div class="col-md-4 m-auto text-center">
-            <button type="button" id="video-box-hide">Hide</button>
+            <button type="button" class="btn btn-sm btn-danger" id="video-box-hide">Hide</button>&nbsp;&nbsp;
+            <button type="button" class="btn btn-sm btn-primary" id="watch-on-youtube">Watch on YouTube</button>
         </div>
     </div>
 </div>
@@ -273,5 +274,12 @@ og_description: A comprehensive guide for learning regular expressions using Pyt
 
     $("#video-box-hide").click(function () {
         $('#video-box').hide();
+    });
+
+    $("#watch-on-youtube").click(function () {
+        let embed_url = $('#video-frame').attr('src');
+        let video_id = embed_url.split("/").pop();
+        let video_url = "https://www.youtube.com/watch?v=" + video_id + "&list=PLyb_C2HpOQSDxe5Y9viJ0JDqGUCetboxB";
+        window.open(video_url, '_blank');
     });
 </script>
