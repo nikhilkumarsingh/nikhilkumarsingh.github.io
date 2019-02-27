@@ -1,0 +1,277 @@
+---
+title: RegEx in Python
+layout: tutorials
+og_image: /static/images/tutorials/regex-in-python.png
+og_description: A comprehensive guide for learning regular expressions using Python
+---
+
+<div style="text-align: center;">
+    <h1>RegEx in Python</h1>
+    <div style="width: 75%;margin: auto;">
+        <h2>A comprehensive guide for learning regular expressions using Python</h2>
+    </div>
+</div>
+
+<div class="container" style="display: none; padding: 10px;" id="video-box">
+    <div class="row">
+        <div class="col-md-8 m-auto text-center">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe id="video-frame" class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/xp1vX15inBg"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen width=150px height=100px>
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 m-auto text-center">
+            <button type="button" id="video-box-hide">Hide</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/xp1vX15inBg">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex1.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">1. Introduction</h4>
+                    <p class="card-text">An introduction to regular expressions, their brief history, important usages and basic syntax</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/01.%20Introduction.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/LIcAmQec5K8">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex2.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">2. import re</h4>
+                    <p class="card-text">Get started with in-build python module <b>re</b> and learn various methods for pattern matching.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/02.%20import%20re.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/Mf-4Zcz5VKw">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">3. Character Classes</h4>
+                    <p class="card-text">Learn the concept of character classes, character set range and predefined character classes.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/03.%20Character%20Classes.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/7CpRn3d1z_g">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex4.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">4. The Backslash Plague</h4>
+                    <p class="card-text">Learn how backslashes can be very annoying when dealing with regular expressions and how to tackle them in multiple ways.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/04.%20The%20Backslash%20Plague.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/WO2s7jUF5mk">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex5.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">5. Alteration</h4>
+                    <p class="card-text">Learn the basics of alteration with examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/05.%20Alteration.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/a_LRNBFVCq8">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex6.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">6. Quantifiers</h4>
+                    <p class="card-text">Learn the basics of quantifiers with various examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/06.%20Quantifiers.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+   
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/vFiBKa4VbtU">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex7.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">7. Greedy & Non-Greedy Quantifiers</h4>
+                    <p class="card-text">Discussion about greedy and non-greedy behaviour of quantifiers.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/07.%20Greedy%20and%20Non-Greedy%20Quantifiers.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/fB8GLixWRrY">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex8.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">8. Boundary Matchers</h4>
+                    <p class="card-text">Learn the concept of boundary matchers and their types.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/08.%20Boundary%20Matchers.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/MUXEuOJAm2Q">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex9.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">9. Splitting</h4>
+                    <p class="card-text">Learn how to split text by regex pattern with examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/09.%20Splitting.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/2_IogBzts-M">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex10.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">10. Substitution</h4>
+                    <p class="card-text">Learn how to do substitutions at pattern matches with examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/10.%20Substitution.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/1kwXDCCcvvE">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex11.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">11. Compilation Flags</h4>
+                    <p class="card-text">Learn the concept of compilation flags with examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/11.%20Compilation%20Flags.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+   
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/DQNEj26i6og">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex12.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">12. Grouping</h4>
+                    <p class="card-text">Learn the very important concept of "Grouping" and its various applications.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/12.%20Grouping.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/tD-dZjDWTZI">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex13.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">13. Backreference</h4>
+                    <p class="card-text">Learn how to backreference groups and its interesting applications.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/13.%20Backreferencing.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/r4Z7kmsauTA">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex14.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">14. Named Groups</h4>
+                    <p class="card-text">Learn how to refer to regex groups by names instead of index.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/14.%20Named%20Groups.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/xoQ7TdB-9NI">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex15.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">15. Non-Capturing Groups</h4>
+                    <p class="card-text">Learn how to prevent a group from capturing its matching part with examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/15.%20Non-Capturing%20Groups.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/DSSvVd1uo8o">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex16.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">16. Look Ahead</h4>
+                    <p class="card-text">Learn the concept of look ahead mechanism with some basic examples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/16.%20Look%20ahead.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        <div class="custom-card col-xl-4 col-lg-6 col-sm-12 h-100 mb-3" data-link="https://www.youtube.com/embed/_uPsxnIg0uU">
+            <div class="card mb-4">
+                <img class="card-img-top img-fluid" src="../static/images/tutorials/regex17.png" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">17. Look Behind</h4>
+                    <p class="card-text">Learn the concept of look behind mechanism with some basic exmaples.</p>
+                    <p class="card-text"><small class="text-muted"><a target="_blank" href="https://github.com/nikhilkumarsingh/RegEx-In-Python/blob/master/17.%20Look%20behind.ipynb"><i class="fab fa-2x fa-github" aria-hidden="true"></i></a></small></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="subscribe">
+    <div class="g-ytsubscribe" data-channelid="UCkUq-s6z57uJFUFBvZIVTyg" data-layout="full" data-count="default"></div>
+</div>
+
+<script>
+    $(".custom-card").click(function (e) {
+        if($(e.target).is('a')){
+            e.preventDefault();
+            return;
+        }
+        let video_url = $(this).attr('data-link');
+        let video_frame = $('#video-frame');
+        let video_box = $('#video-box');
+        video_frame.attr('src', video_url);
+        video_box.show();
+        $('html, body').animate({ scrollTop: video_box.offset().top-60 }, 'slow');
+    });
+
+    $("#video-box-hide").click(function () {
+        $('#video-box').hide();
+    });
+</script>
