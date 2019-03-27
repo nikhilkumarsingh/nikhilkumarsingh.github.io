@@ -3,6 +3,7 @@ title: RegEx in Python
 layout: tutorials
 og_image: /static/images/tutorials/regex-in-python.png
 og_description: A comprehensive guide for learning regular expressions using Python
+playlist_id: PLyb_C2HpOQSDxe5Y9viJ0JDqGUCetboxB
 ---
 
 <div style="text-align: center;">
@@ -253,33 +254,3 @@ og_description: A comprehensive guide for learning regular expressions using Pyt
         
     </div>
 </div>
-
-<div class="subscribe">
-    <div class="g-ytsubscribe" data-channelid="UCkUq-s6z57uJFUFBvZIVTyg" data-layout="full" data-count="default"></div>
-</div>
-
-<script>
-    $(".custom-card").click(function (e) {
-        if($(e.target).is('a')){
-            e.preventDefault();
-            return;
-        }
-        let video_url = $(this).attr('data-link');
-        let video_frame = $('#video-frame');
-        let video_box = $('#video-box');
-        video_frame.attr('src', video_url);
-        video_box.show();
-        $('html, body').animate({ scrollTop: video_box.offset().top-60 }, 'slow');
-    });
-
-    $("#video-box-hide").click(function () {
-        $('#video-box').hide();
-    });
-
-    $("#watch-on-youtube").click(function () {
-        let embed_url = $('#video-frame').attr('src');
-        let video_id = embed_url.split("/").pop();
-        let video_url = "https://www.youtube.com/watch?v=" + video_id + "&list=PLyb_C2HpOQSDxe5Y9viJ0JDqGUCetboxB";
-        window.open(video_url, '_blank');
-    });
-</script>
